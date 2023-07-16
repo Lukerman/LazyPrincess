@@ -5,10 +5,9 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python3 bot.py
-    repo: https://github.com/Lukerman/LazyPrincess/artificial_inteligence_v7.5      
+    repo: https://github.com/Lukerman/LazyPrincess.git     
     branch: master
-     
-      envVars:
+        envVars:
       - key: BOT_TOKEN 
         sync: false
       - key: API_ID 
