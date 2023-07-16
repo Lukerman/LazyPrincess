@@ -7,7 +7,7 @@ services:
     startCommand: python3 bot.py
     repo: https://github.com/Lukerman/LazyPrincess/artificial_inteligence_v7.5      
     branch: master
-      envVars:
+      
       - key: BOT_TOKEN 
         sync: false
       - key: API_ID 
