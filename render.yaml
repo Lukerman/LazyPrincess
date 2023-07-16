@@ -23,6 +23,10 @@ services:
       - key: PICS
         sync: false
       - key: LOG_CHANNEL
-        sync: false 
+        sync: false  
+      - key: FILE_STORE_CHANNEL
+      sync: false
+      -key: REQ_CHANNEL
+        synce: false
       
     autoDeploy: false
