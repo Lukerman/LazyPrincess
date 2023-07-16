@@ -1,4 +1,4 @@
-services:
+toservices:
   - type: web
     plan: free
     name: TechMagazineAutoFilterBot
@@ -23,5 +23,7 @@ services:
       - key: PICS
         sync: false
       - key: LOG_CHANNEL
-        sync: false    
+        sync: false 
+      - key: COLLECTION_NAME
+        synce: telegram_files
     autoDeploy: false
