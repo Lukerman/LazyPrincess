@@ -24,6 +24,5 @@ toservices:
         sync: false
       - key: LOG_CHANNEL
         sync: false 
-      - key: COLLECTION_NAME
-        synce: telegram_files
+      
     autoDeploy: false
