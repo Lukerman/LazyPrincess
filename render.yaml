@@ -1,11 +1,11 @@
-toservices:
+services:
   - type: web
     plan: free
     name: TechMagazineAutoFilterBot
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python3 bot.py
-    repo: https://github.com/itsyogieu/TechMagazineAutoFilterBot.git      
+    repo: https://github.com/Lukerman/LazyPrincess/tree/artificial_inteligence_v7.5      
     branch: master
     envVars:
       - key: BOT_TOKEN 
