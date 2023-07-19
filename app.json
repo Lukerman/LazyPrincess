@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Lukerman/LazyPrincess/tree/artificial_inteligence_v7.5",
-    "repository": "https://github.com/Lukerman/LazyPrincess/tree/artificial_inteligence_v7.5",
+    "website": "https://github.com/Lukerman/LazyPrincess",
+    "repository": "https://github.com/Lukerman/LazyPrincess",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
